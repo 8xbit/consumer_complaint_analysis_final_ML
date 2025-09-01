@@ -3,3 +3,5 @@ uvicorn==0.35.0
 pydantic==2.11.7
 pydantic_core==2.33.2
 starlette==0.47.3
+joblib==1.5.2
+scikit-learn==1.7.1   # if you're using joblib to load sklearn models
